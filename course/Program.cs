@@ -1,25 +1,30 @@
-﻿using System;
+﻿using course;
+using System;
 using System.Globalization;
 namespace Course {
     class Program {
         static void Main(string[] args){
-            double xa, xb, xc, ya, yb, yc;
             
+            Triangulo x, y;
+
+            x = new Triangulo();
+            y = new Triangulo();
+
             Console.WriteLine("Entre com as medidas do triângulo X: ");
-            xa = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xb = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xc = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Entre com as medidas do triângulo Y: ");
-            ya = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yb = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yc = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double px = (xa + xb + xc) / 2;
-            double py = (ya +yb + yc) / 2;
+            double px = (x.A + x.B + x.C) / 2;
+            double py = (y.A +y.B + y.C) / 2;
 
-            double areaX = Math.Sqrt(px * (px - xa) * (px - xb) * (px - xc));
-            double areaY = Math.Sqrt(py * (py - ya) * (py - yb) * (py - yc));
+            double areaX = Math.Sqrt(px * (px - x.A) * (px - x.B) * (px - x.C));
+            double areaY = Math.Sqrt(py * (py - y.A) * (py - y.B) * (py - y.C));
 
             Console.WriteLine($"Área de x= {areaX:F4}");
             Console.WriteLine($"Área de x= {areaY:F4}");
