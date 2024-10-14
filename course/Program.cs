@@ -20,11 +20,8 @@ namespace Course {
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double px = (x.A + x.B + x.C) / 2;
-            double py = (y.A +y.B + y.C) / 2;
-
-            double areaX = Math.Sqrt(px * (px - x.A) * (px - x.B) * (px - x.C));
-            double areaY = Math.Sqrt(py * (py - y.A) * (py - y.B) * (py - y.C));
+            double areaX = x.Area();
+            double areaY = y.Area();    
 
             Console.WriteLine($"Área de x= {areaX:F4}");
             Console.WriteLine($"Área de x= {areaY:F4}");
