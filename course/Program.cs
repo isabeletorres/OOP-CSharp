@@ -60,6 +60,24 @@ namespace Course {
             else {
                 Console.WriteLine($"{p1.Nome} e {p2.Nome} tem a mesma idade");
             }
+
+            Funcionario funcionario = new Funcionario();
+            Funcionario funcionario1 = new Funcionario();
+
+            Console.WriteLine("Dados do 1° fucionario ");
+            Console.WriteLine("Nome: ");
+            funcionario.Nome = Console.ReadLine();
+            Console.WriteLine("Salário: ");
+            funcionario.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("Dados do 2° funcionario");
+            Console.WriteLine("Nome: ");
+            funcionario1.Nome = Console.ReadLine();
+            Console.WriteLine("Salário: ");
+            funcionario1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double media = (funcionario.Salario + funcionario1.Salario) / 2;
+            Console.WriteLine("Salario medio: " + media.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
