@@ -9,11 +9,15 @@ namespace Sobrecarga {
         public int Quantidade;
 
         public Produt(){
-
+            Quantidade = 10;
         }
-        public Produt(string nome, double preco) {
+        public Produt(string nome, double preco) : this() {
             Nome = nome;
             Preco = preco;
+        }
+
+        public Produt(string nome, double preco, int quantidade) : this(nome, preco) {
+            Quantidade = quantidade;
         }
 
         public double ValorTotalEmEstoque() {
