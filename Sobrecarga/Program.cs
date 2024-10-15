@@ -10,8 +10,15 @@ namespace Sobrecarga {
             string nome = Console.ReadLine();
             Console.Write("Preço: ");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-          
+
             Produt p = new Produt(nome, preco);
+
+            Produt p2 = new Produt {
+                Nome = "TV",
+                Preco = 500,
+                Quantidade = 20
+            };
+
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine();

@@ -8,16 +8,12 @@ namespace Sobrecarga {
         public double Preco;
         public int Quantidade;
 
-        public Produt(string nome, double preco, int quantidade) {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-        }
+        public Produt(){
 
+        }
         public Produt(string nome, double preco) {
             Nome = nome;
             Preco = preco;
-            Quantidade = 5;
         }
 
         public double ValorTotalEmEstoque() {
