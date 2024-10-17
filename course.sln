@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceContaBnacaria", "Ex
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComportamentoDeMemoriaArraysListas", "ComportamentoDeMemoriaArraysListas", "{4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposReferenciaEValor", "TiposDeTransferenciaETiposDevalor\TiposReferenciaEValor.csproj", "{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenciaEValor", "TiposDeTransferenciaETiposDevalor\ReferenciaEValor.csproj", "{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}"
 EndProject
