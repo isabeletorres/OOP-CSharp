@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenciaEValor", "TiposDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysVetores", "ArraysVetores\ArraysVetores.csproj", "{6B37DB66-3B57-43AE-B853-D9FCC94F0412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B37DB66-3B57-43AE-B853-D9FCC94F0412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B37DB66-3B57-43AE-B853-D9FCC94F0412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B37DB66-3B57-43AE-B853-D9FCC94F0412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B37DB66-3B57-43AE-B853-D9FCC94F0412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{1C3600D4-83EF-466B-91D1-1F531A315A29} = {AC33F06B-BDE5-4389-A7B3-EA50D34E71E4}
 		{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
+		{6B37DB66-3B57-43AE-B853-D9FCC94F0412} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
