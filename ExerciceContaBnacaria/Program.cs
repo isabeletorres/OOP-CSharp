@@ -1,47 +1,48 @@
 ﻿using ExerciceContaBnacaria;
 using System;
 using System.Globalization;
+using System.Xml;
 
 namespace ExerciceContaBancaria {
     class Program {
         public static void Main(string[] args) {
-            ContaBancaria1 contaB;
-
-
-            Console.Write("Entre o número na conta: ");
+            char res;
+            ContaBancaria1 conta;
+            
+            Console.Write("Entre o número da conta: ");
             int numConta = int.Parse(Console.ReadLine());
-
             Console.Write("Entre o titular da conta: ");
-            string nome = Console.ReadLine();
+            string nomeTitular = Console.ReadLine();
 
-            Console.Write("Haverá deposito inicial? (s/n)");
-            char res = char.Parse(Console.ReadLine());
+            Console.Write("Haverá deposito inicial? [S/N] ");
+            res = char.Parse(Console.ReadLine());
 
             if (res == 'S' || res == 's') {
-                Console.Write("Entre o valor de deposito incicial: ");
-                double depI = double.Parse(Console.ReadLine());
-                contaB= new ContaBancaria1(numConta, nome, depI);
+                Console.Write("Entre o valor de deposito inicial: ");
+                double depositoIn = double.Parse(Console.ReadLine());
+                conta = new ContaBancaria1(numConta, nomeTitular, depositoIn);
             }
             else {
-                contaB = new ContaBancaria1(numConta, nome);
+                conta = new ContaBancaria1(numConta, nomeTitular);
             }
+            
             Console.WriteLine();
-            Console.WriteLine("Ddos da conta: ");
-            Console.WriteLine(contaB);
+            Console.WriteLine("Dados da conta: ");
+            Console.WriteLine(conta);
+            Console.WriteLine();
 
-            Console.WriteLine();
-            Console.Write("Entre um valor para depósito: ");
-            double deposito = double.Parse(Console.ReadLine()); 
-            contaB.Deposito(deposito);
-            Console.WriteLine("Ddos da conta atualizados: ");
-            Console.WriteLine(contaB);
+            Console.Write("Entre um valor para deposito: ");
+            double quantia = double.Parse(Console.ReadLine());
+            conta.Deposito(quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
 
             Console.WriteLine();
             Console.Write("Entre um valor para saque: ");
-            double saque = double.Parse(Console.ReadLine());
-            contaB.Saque(saque);
-            Console.WriteLine("Ddos da conta atualizados: ");
-            Console.WriteLine(contaB);
+            quantia = double.Parse(Console.ReadLine());
+            conta.Saque(quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
 
         }
     }
