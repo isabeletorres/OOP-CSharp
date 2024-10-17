@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComportamentoDeMemoriaArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposReferenciaEValor", "TiposDeTransferenciaETiposDevalor\TiposReferenciaEValor.csproj", "{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{4DD5F8D1-3CEC-4F49-8A4A-823ED1E0EABF} = {AC33F06B-BDE5-4389-A7B3-EA50D34E71E4}
 		{1C3600D4-83EF-466B-91D1-1F531A315A29} = {AC33F06B-BDE5-4389-A7B3-EA50D34E71E4}
 		{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
+		{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
