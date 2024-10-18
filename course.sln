@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleVetores2", "ExempleV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceVetores3", "ExerciceVetores3\ExerciceVetores3.csproj", "{66D5A44E-9422-4A94-905E-23134AB5D1A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{11AB7387-810A-416B-92E6-A8106BC545F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{66D5A44E-9422-4A94-905E-23134AB5D1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D5A44E-9422-4A94-905E-23134AB5D1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D5A44E-9422-4A94-905E-23134AB5D1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AB7387-810A-416B-92E6-A8106BC545F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AB7387-810A-416B-92E6-A8106BC545F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AB7387-810A-416B-92E6-A8106BC545F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AB7387-810A-416B-92E6-A8106BC545F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{270C774C-12C8-4533-B221-388BA7E2DA8A} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 		{E57B621B-E389-4E37-8907-7524256D39AA} = {270C774C-12C8-4533-B221-388BA7E2DA8A}
 		{66D5A44E-9422-4A94-905E-23134AB5D1A4} = {270C774C-12C8-4533-B221-388BA7E2DA8A}
+		{11AB7387-810A-416B-92E6-A8106BC545F9} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
