@@ -35,7 +35,7 @@ namespace Lista1 {
                 Console.WriteLine(obj);
             }
 
-            list.Remove("Alex");
+            list.Remove();
             Console.WriteLine("----------------------------");
             foreach (string obj in list) {
                 Console.WriteLine(obj);
