@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrizes", "Matrizes", "{80
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizExercice1", "MatrizExexcice1\MatrizExercice1.csproj", "{53834CDC-9274-4769-A25E-B71252F0DE5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53834CDC-9274-4769-A25E-B71252F0DE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53834CDC-9274-4769-A25E-B71252F0DE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53834CDC-9274-4769-A25E-B71252F0DE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53834CDC-9274-4769-A25E-B71252F0DE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +165,7 @@ Global
 		{49856A5D-BA20-439A-AD2E-FB925169986E} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 		{80C8A2D9-9974-4739-97DA-D804A0D87EE3} = {4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}
 		{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
+		{53834CDC-9274-4769-A25E-B71252F0DE5C} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
