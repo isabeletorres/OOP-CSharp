@@ -59,6 +59,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopicosEspeciais", "Topicos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavraVar", "PalavraVar\PalavraVar.csproj", "{564AFE5E-0B63-42F5-8FA3-09095E4E3235}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "Switchcase\SwitchCase.csproj", "{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +188,7 @@ Global
 		{53834CDC-9274-4769-A25E-B71252F0DE5C} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
 		{8657727A-5C60-4140-BCB2-6A499D65362E} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
 		{564AFE5E-0B63-42F5-8FA3-09095E4E3235} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
+		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
