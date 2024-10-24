@@ -5,55 +5,59 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "course\Course.csproj", "{88B7D3F9-7167-451B-B0AF-4531D7F8CB57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicesProduct", "ExercicesProduct\ExercicesProduct.csproj", "{BEB58AF9-7A65-4897-B8FA-D2805F3D173F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicesProduct", "ExercicesProduct\ExercicesProduct.csproj", "{BEB58AF9-7A65-4897-B8FA-D2805F3D173F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceRetangulo", "ExerciceRetangulo\ExerciceRetangulo.csproj", "{A582D416-CEE3-4F06-BE34-C6E12D6AD2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceRetangulo", "ExerciceRetangulo\ExerciceRetangulo.csproj", "{A582D416-CEE3-4F06-BE34-C6E12D6AD2E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassesAtrubutosMetodosEstaticos", "ClassesAtrubutosMetodosEstaticos", "{69D588C7-5922-4B06-AD0D-AB26ACAB92E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceRaio", "ExerciceRaio\ExerciceRaio.csproj", "{92ADA609-CFAB-4141-8018-236B1F83A0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceRaio", "ExerciceRaio\ExerciceRaio.csproj", "{92ADA609-CFAB-4141-8018-236B1F83A0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertDolar", "ConvertDolar\ConvertDolar.csproj", "{2203FC5F-90DF-4A89-A62F-11FED48D3773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertDolar", "ConvertDolar\ConvertDolar.csproj", "{2203FC5F-90DF-4A89-A62F-11FED48D3773}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConstrutoresThisSobrecargaEncapsulamento", "ConstrutoresThisSobrecargaEncapsulamento", "{AC33F06B-BDE5-4389-A7B3-EA50D34E71E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtores", "Construtores\Construtores.csproj", "{6DD2A87B-058E-4291-915A-80C5F9D89C22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Construtores", "Construtores\Construtores.csproj", "{6DD2A87B-058E-4291-915A-80C5F9D89C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sobrecarga", "Sobrecarga\Sobrecarga.csproj", "{FD79F175-050B-4D05-85F0-D1CA71CE9A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sobrecarga", "Sobrecarga\Sobrecarga.csproj", "{FD79F175-050B-4D05-85F0-D1CA71CE9A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{4DD5F8D1-3CEC-4F49-8A4A-823ED1E0EABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Properties", "Properties\Properties.csproj", "{4DD5F8D1-3CEC-4F49-8A4A-823ED1E0EABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceContaBnacaria", "ExerciceContaBnacaria\ExerciceContaBnacaria.csproj", "{1C3600D4-83EF-466B-91D1-1F531A315A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceContaBnacaria", "ExerciceContaBnacaria\ExerciceContaBnacaria.csproj", "{1C3600D4-83EF-466B-91D1-1F531A315A29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComportamentoDeMemoriaArraysListas", "ComportamentoDeMemoriaArraysListas", "{4B94806E-5CDB-4DB7-A5C1-9BB22FFCCD78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenciaEValor", "TiposDeTransferenciaETiposDevalor\ReferenciaEValor.csproj", "{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenciaEValor", "TiposDeTransferenciaETiposDevalor\ReferenciaEValor.csproj", "{5FBE7DF3-A6FD-4ED4-BFC3-B369D17F12BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "Nullable\Nullable.csproj", "{7E63AC82-47AD-40F4-86C1-C4FBF4BC8EA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemplesVetores1", "ArraysVetores\ExemplesVetores1.csproj", "{6B37DB66-3B57-43AE-B853-D9FCC94F0412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemplesVetores1", "ArraysVetores\ExemplesVetores1.csproj", "{6B37DB66-3B57-43AE-B853-D9FCC94F0412}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{270C774C-12C8-4533-B221-388BA7E2DA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleVetores2", "ExempleVetores2\ExempleVetores2.csproj", "{E57B621B-E389-4E37-8907-7524256D39AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleVetores2", "ExempleVetores2\ExempleVetores2.csproj", "{E57B621B-E389-4E37-8907-7524256D39AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceVetores3", "ExerciceVetores3\ExerciceVetores3.csproj", "{66D5A44E-9422-4A94-905E-23134AB5D1A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceVetores3", "ExerciceVetores3\ExerciceVetores3.csproj", "{66D5A44E-9422-4A94-905E-23134AB5D1A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{11AB7387-810A-416B-92E6-A8106BC545F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{11AB7387-810A-416B-92E6-A8106BC545F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach", "foreach\Foreach.csproj", "{D0470D63-8F6E-4EF7-8040-2F6939203CE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "foreach\Foreach.csproj", "{D0470D63-8F6E-4EF7-8040-2F6939203CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista1", "Lista1\Lista1.csproj", "{7EF04100-23BE-4C92-B045-2929E345A6BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista1", "Lista1\Lista1.csproj", "{7EF04100-23BE-4C92-B045-2929E345A6BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceList", "ExerciceList\ExerciceList.csproj", "{49856A5D-BA20-439A-AD2E-FB925169986E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceList", "ExerciceList\ExerciceList.csproj", "{49856A5D-BA20-439A-AD2E-FB925169986E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrizes", "Matrizes", "{80C8A2D9-9974-4739-97DA-D804A0D87EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matrizes.csproj", "{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizExercice1", "MatrizExexcice1\MatrizExercice1.csproj", "{53834CDC-9274-4769-A25E-B71252F0DE5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizExercice1", "MatrizExexcice1\MatrizExercice1.csproj", "{53834CDC-9274-4769-A25E-B71252F0DE5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizExercice2", "MatrizExercice2\MatrizExercice2.csproj", "{8657727A-5C60-4140-BCB2-6A499D65362E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizExercice2", "MatrizExercice2\MatrizExercice2.csproj", "{8657727A-5C60-4140-BCB2-6A499D65362E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopicosEspeciais", "TopicosEspeciais", "{52ADDE15-052D-466E-A3E3-F051A68735C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavraVar", "PalavraVar\PalavraVar.csproj", "{564AFE5E-0B63-42F5-8FA3-09095E4E3235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +149,10 @@ Global
 		{8657727A-5C60-4140-BCB2-6A499D65362E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8657727A-5C60-4140-BCB2-6A499D65362E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8657727A-5C60-4140-BCB2-6A499D65362E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564AFE5E-0B63-42F5-8FA3-09095E4E3235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +181,7 @@ Global
 		{2E82692E-ADAE-4A83-B43C-13BBBD75D1DC} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
 		{53834CDC-9274-4769-A25E-B71252F0DE5C} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
 		{8657727A-5C60-4140-BCB2-6A499D65362E} = {80C8A2D9-9974-4739-97DA-D804A0D87EE3}
+		{564AFE5E-0B63-42F5-8FA3-09095E4E3235} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
