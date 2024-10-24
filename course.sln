@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "Switchcase\Sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondicionalTernaria", "CondicionalTernaria\CondicionalTernaria.csproj", "{E97C8909-8E36-4736-9F64-A4AC32476209}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncoesStrings", "FuncoesStrings\FuncoesStrings.csproj", "{3C24DA3B-46B1-429B-AE87-A91CB64DA028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{E97C8909-8E36-4736-9F64-A4AC32476209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97C8909-8E36-4736-9F64-A4AC32476209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97C8909-8E36-4736-9F64-A4AC32476209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C24DA3B-46B1-429B-AE87-A91CB64DA028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C24DA3B-46B1-429B-AE87-A91CB64DA028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C24DA3B-46B1-429B-AE87-A91CB64DA028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C24DA3B-46B1-429B-AE87-A91CB64DA028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +202,7 @@ Global
 		{564AFE5E-0B63-42F5-8FA3-09095E4E3235} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
 		{E2D72D81-34FC-4681-8E6D-CCBFA3E6EDD0} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
 		{E97C8909-8E36-4736-9F64-A4AC32476209} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
+		{3C24DA3B-46B1-429B-AE87-A91CB64DA028} = {52ADDE15-052D-466E-A3E3-F051A68735C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8F9E8F7-9ED7-4994-A9E0-426F97A4519C}
